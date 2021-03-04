@@ -6,11 +6,11 @@
     $bdados ='SEU BANCO';
 
     
-    global $DOCUMENT_ROOT, $HTTP_HOST;
-    $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
-    $HTTP_HOST = "http://".$_SERVER['HTTP_HOST'];
-    $TOKEN = "BMJ-7V@9-$%ASbZXS#v%!bnmpHI%Cavj";
-
+    // global $DOCUMENT_ROOT, $HTTP_HOST;
+    // $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
+    // $HTTP_HOST = "http://".$_SERVER['HTTP_HOST'];
+    // $TOKEN = "BMJ-7V@9-$%ASbZXS#v%!bnmpHI%Cavj";
+    $HTTP_HOST = "http://localhost:8081";
 
     //FUNÇÕES BANCO DE DADOS
     function verificar($consulta){
